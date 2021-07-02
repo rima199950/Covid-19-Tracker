@@ -36,6 +36,7 @@ h2 {
   border-radius: 5px;
   text-decoration: none;
   box-shadow: 5px 8px 4px rgb(143, 143, 143);
+  margin-bottom: 15px;
 }
 .active {
   background-image: linear-gradient(to bottom right,rgb(4, 4, 247),white) !important;
@@ -162,7 +163,7 @@ td:nth-child(5) span {
   tbody{
     display :table-row-group;
     max-width: 200px;
-    margin-bottom: 50px;
+    margin: 50px;
   }
   .bdy td {
     font-size: 60%;
