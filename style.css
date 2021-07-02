@@ -186,6 +186,10 @@ footer {
   .table {
     width: 100%;
   }
+  #last_update {
+    width: 90%;
+    font-size: 14px;
+  }
   .header a {
     font-size: 16px;
     padding-top: 5px;
