@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,400&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+  background: linear-gradient(rgba(27, 27, 27, 0.8), rgba(5, 5, 5, 0.8)),
+  url("https://ak.picdn.net/shutterstock/videos/1047610111/thumb/6.jpg");
+}
+
+center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 25px;
+  color: rgb(255, 255, 255);
+  
+}
+h2 {
+  padding-bottom: 30px;
+}
+
+
+
+.header a {
+  font-size:30px;
+  text-align: left;
+  display: inline-flex;
+  flex-direction: row;
+  color: rgb(2, 2, 2);
+  padding-right: 16%;
+  padding-left: 16%;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 5px 8px 4px rgb(143, 143, 143);
+  margin-bottom: 15px;
+}
+.active {
+  background-image: linear-gradient(to bottom right,rgb(4, 4, 247),white) !important;
+  color: white !important;
+  box-shadow: 0px 0px 0px!important;
+}
+
+#last_update {
+  background-color: rgb(8, 8, 8);
+  padding: 7px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+
+#mychart {
+ padding-bottom: 50px;
+}
+
+.chart {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.986), rgba(211, 210, 255, 0.966));
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  box-shadow: 15px 15px 10px -12px rgb(240, 236, 236);
+}
+.table {
+  background-image: linear-gradient(rgba(255, 246, 246, 0.1), rgba(255, 251, 251, 0.7));
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 15px 0px 10px -15px rgb(248, 241, 241);
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 4px;
+    margin-top: 10px;
+    width: 89%;
+}
+
+th {
+  font-size: 17px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 2px solid rgb(161, 159, 159);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 10%;
+  box-shadow: 15px 0px 10px -12px rgb(255, 255, 255);
+}
+
+td {
+  margin: 1px;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.bdy:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.bdy:nth-child(odd){
+  background-color: rgb(230, 235, 255);
+  text-align: center;
+}
+
+.bdy:hover{
+  background-color: rgb(211, 206, 206);
+}
+
+.bdy td {
+  font-size: 16px;
+  padding: 10px;
+  box-shadow: 15px 0px 10px -12px rgb(172, 172, 172);
+}
+
+.bdy td:nth-child(2) span,
+td:nth-child(5) span {
+  color:  rgb(252, 5, 5);
+  font-size: 15px;
+}
+.bdy td:nth-child(4) span {
+  color:rgb(0, 161, 8);
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+
+
+.todayt {
+  color: rgb(255, 1, 1);
+  font-weight: normal;
+  font-size: 15px;
+}
+.todayr {
+  color: rgb(15, 226, 33);
+  font-weight: normal;
+  font-size: 15px;
+}
+.todayd {
+  color: rgb(255, 1, 1);
+  font-weight: normal;
+  font-size: 15px;
+}
+.todaya {
+  padding-top: 20px;
+}
+
+.tt{
+  font-size: 17px;
+  font-weight:lighter;
+  color: rgb(252, 239, 239);
+  
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer {
+  margin: 20px;
+}
+
+@media screen and (max-width: 680px) {
+  body {
+    justify-content: center;
+  }
+  .title {
+    font-size: 100%;
+  }
+  .table {
+    width: 100%;
+  }
+  .header a {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12%;
+    padding-left: 12%;
+  }
+  tbody{
+    display :table-row-group;
+    max-width: 200px;
+    margin: 0 5px;
+  }
+  .bdy:hover{
+    background-color: rgb(219, 236, 255);
+  }
+  
+  .bdy td,th,.tt,.todayt,.todayr,.todaya,.todayd,
+  .bdy td:nth-child(4) span,
+  .bdy td:nth-child(2) span,
+  .bdy td:nth-child(5) span{
+    font-size: 10px;
+    font-weight: bolder;
+  }
+  .todaya {
+    padding-top: 8px;
+  }
+  
+}
+
