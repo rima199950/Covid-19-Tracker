@@ -162,9 +162,16 @@ td:nth-child(5) span {
   tbody{
     display :table-row-group;
     max-width: 200px;
+    margin-bottom: 50px;
   }
-  .bdy td,th,.tt {
-    font-size: 10px;
+  .bdy td {
+    font-size: 60%;
+  }
+  th,.tt,.todayt,.todayr,.todaya,.todayd,
+  .bdy td:nth-child(4) span,
+  .bdy td:nth-child(2) span,
+  .bdy td:nth-child(5) span{
+    font-size: 80%;
   }
   
 }
