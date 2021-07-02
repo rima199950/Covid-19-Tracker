@@ -151,5 +151,21 @@ td:nth-child(5) span {
   padding-bottom: 7px;
 }
 
-
+@media screen and (max-width: 680px) {
+  body {
+    justify-content: center;
+  }
+  table {
+    max-width: 100%;
+    
+  }
+  tbody{
+    display :table-row-group;
+    max-width: 200px;
+  }
+  .bdy td,th,.tt {
+    font-size: 10px;
+  }
+  
+}
 
