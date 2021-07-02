@@ -19,7 +19,7 @@ center {
 
 .header {
   text-align: center;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
   margin-top: 25px;
   color: rgb(255, 255, 255);
@@ -166,17 +166,26 @@ td:nth-child(5) span {
   body {
     justify-content: center;
   }
+  .title {
+    font-size: 100%;
+  }
   .table {
     width: 100%;
   }
   .header a {
     font-size: 16px;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12%;
+    padding-left: 12%;
   }
   tbody{
     display :table-row-group;
     max-width: 200px;
     margin: 0 5px;
+  }
+  .bdy:hover{
+    background-color: rgb(219, 236, 255);
   }
   
   .bdy td,th,.tt,.todayt,.todayr,.todaya,.todayd,
