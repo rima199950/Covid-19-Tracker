@@ -10,6 +10,13 @@ body {
   url("https://ak.picdn.net/shutterstock/videos/1047610111/thumb/6.jpg");
 }
 
+center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .header {
   text-align: center;
   font-size: 25px;
@@ -58,7 +65,10 @@ h2 {
 }
 .table {
   background-image: linear-gradient(rgba(255, 246, 246, 0.1), rgba(255, 251, 251, 0.7));
-  width: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 10px;
@@ -88,7 +98,8 @@ th {
 td {
   margin: 1px;
   border-radius: 5px;
-  padding: 10px 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .bdy:nth-child(even) {
   background-color: rgb(255, 255, 255);
@@ -146,8 +157,7 @@ td:nth-child(5) span {
   font-size: 17px;
   font-weight:lighter;
   color: rgb(252, 239, 239);
-  padding-left: 15px;
-  padding-right: 15px;
+  
   padding-top: 7px;
   padding-bottom: 7px;
 }
@@ -156,24 +166,25 @@ td:nth-child(5) span {
   body {
     justify-content: center;
   }
-  table {
-    max-width: 100%;
-    
+  .table {
+    width: 100%;
+  }
+  .header a {
+    font-size: 16px;
+    padding: 5px;
   }
   tbody{
     display :table-row-group;
     max-width: 200px;
-    margin: 50px;
+    margin: 0 5px;
   }
-  .bdy td {
-    font-size: 60%;
-  }
-  th,.tt,.todayt,.todayr,.todaya,.todayd,
+  
+  .bdy td,th,.tt,.todayt,.todayr,.todaya,.todayd,
   .bdy td:nth-child(4) span,
   .bdy td:nth-child(2) span,
   .bdy td:nth-child(5) span{
-    font-size: 80%;
+    font-size: 10px;
+    font-weight: normal;
   }
   
 }
-
