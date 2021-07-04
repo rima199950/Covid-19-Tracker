@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid 19 Tracker</title>
+
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="http://www.geoplugin.net/javascript.gp"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h2 class="title">Covid-19 Tracker</h2>
+            
+            <a href="index.html" class="active">India</a>
+            <a href="worlddata.html">World</a>
+        </div>
+        
+    </header>
+    
+    <center>
+        <div class="chart">
+            <canvas id="myChart" style="min-height: 50%; max-width:600px;
+            max-height: 800px;padding: 20px;"></canvas>
+        </div>
+        <div id="last_update">Last Update : </div>
+        <div class="table">
+            <table id="t1">
+                <tr id="heading">
+                    <th>State Name</th>
+                    <th>Total
+                        <p class="tt" id="t"></p>
+                        <p class="todayt" id="todaytotal"></p>
+                    </th>
+                    <th>Active
+                        <p  class="tt" id="a"></p>
+                        <p class="todaya" id="todayactive"> </p>
+                    </th>
+                    <th>Recovered
+                        <p  class="tt" id="r"></p>
+                        <p class="todayr" id="todayrecovered"></p>
+                    </th>
+                    <th>Deaths
+                        <p  class="tt" id="d"></p>
+                        <p class="todayd" id="todaydeaths"></p>
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </center>
+
+    <footer class="foot">
+        <div>Developed and Design by : Rima Ray</div>
+        <div>✉️
+            <a href="mailto:rima59215@gmail.com ">rima59215@gmail.com</a>  </div>
+        <div>
+            <a href="https://www.linkedin.com/in/rima-ray-384856193/">https://www.linkedin.com/in/rima-ray-384856193/</a>
+        </div>
+    </footer>
+    
+        
+</body>
+
+
+<script src="app.js"></script>
+</html>
