@@ -3,7 +3,6 @@ fetch('https://corona.lmao.ninja/v2/all')
     return res.json();
 })
 .then(data=>{
-    console.log(data);
     var wtotal = data['cases'];
     var wactive = data['active'];
     var wreco = data['recovered'];
