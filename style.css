@@ -286,6 +286,7 @@ footer {
   .wcard span {
     font-size: 12px;
     font-weight: 800;
+    padding-top: 8px;
   }
 }
 
