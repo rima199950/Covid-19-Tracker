@@ -306,7 +306,11 @@ footer {
 .foot div {
   padding-top: 10px;
 }
-.foot div a {
+.email {
+  color: beige;
+  text-decoration: none;
+}
+.linked_in {
   color: rgb(147, 128, 250);
   text-decoration: none;
 }
