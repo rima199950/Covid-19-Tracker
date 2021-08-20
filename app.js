@@ -68,13 +68,9 @@ fetch('https://data.covid19india.org/data.json')
             
     }
     
-    
-    
-    
 })
 .catch(error=>{
     console.log("sorry");
 })
-
 
 
