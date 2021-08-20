@@ -1,6 +1,6 @@
 const t1= document.getElementById("t1");
 
-fetch('https://api.covid19india.org/data.json')
+fetch('https://data.covid19india.org/data.json')
 .then(res=>{
     return res.json();
 })
